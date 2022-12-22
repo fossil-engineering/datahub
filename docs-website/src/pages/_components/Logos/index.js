@@ -61,6 +61,16 @@ const companiesByIndustry = [
         imageUrl: "/img/logos/companies/zynga.png",
         imageSize: "default",
       },
+      {
+        name: "Hurb",
+        imageUrl: "/img/logos/companies/hurb.png",
+        imageSize: "medium",
+      },
+      {
+        name: "Razer",
+        imageUrl: "/img/logos/companies/razer.jpeg",
+        imageSize: "large",
+      },
     ],
   },
   {
@@ -142,6 +152,11 @@ const companiesByIndustry = [
     name: "And More",
     companies: [
       {
+        name: "Wikimedia Foundation",
+        imageUrl: "/img/logos/companies/wikimedia-foundation.png",
+        imageSize: "medium",
+      },
+      {
         name: "Cabify",
         imageUrl: "/img/logos/companies/cabify.png",
         imageSize: "medium",
@@ -206,6 +221,10 @@ const platformLogos = [
   {
     name: "Glue",
     imageUrl: "/img/logos/platforms/glue.svg",
+  },
+  {
+    name: "Great Expectations",
+    imageUrl: "/img/logos/platforms/great-expectations.png",
   },
   {
     name: "Hadoop",

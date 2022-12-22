@@ -71,8 +71,7 @@ We use a plugin architecture so that you can install only the dependencies you a
 | [datahub-business-glossary](./generated/ingestion/sources/business-glossary.md) | _no additional dependencies_                               | Business Glossary File source       |
 | [dbt](./generated/ingestion/sources/dbt.md)                                     | _no additional dependencies_                               | dbt source                          |
 | [druid](./generated/ingestion/sources/druid.md)                                 | `pip install 'acryl-datahub[druid]'`                       | Druid Source                        |
-| [feast-legacy](./generated/ingestion/sources/feast.md#module-feast-legacy)                   | `pip install 'acryl-datahub[feast-legacy]'`                | Feast source (legacy)  |
-| [feast](./generated/ingestion/sources/feast.md)                                 | `pip install 'acryl-datahub[feast]'`                       | Feast source (0.18.0)               |
+| [feast](./generated/ingestion/sources/feast.md)                                 | `pip install 'acryl-datahub[feast]'`                       | Feast source (0.26.0)               |
 | [glue](./generated/ingestion/sources/glue.md)                                   | `pip install 'acryl-datahub[glue]'`                        | AWS Glue source                     |
 | [hana](./generated/ingestion/sources/hana.md)                                   | `pip install 'acryl-datahub[hana]'`                        | SAP HANA source                     |
 | [hive](./generated/ingestion/sources/hive.md)                                   | `pip install 'acryl-datahub[hive]'`                        | Hive source                         |
@@ -100,7 +99,8 @@ We use a plugin architecture so that you can install only the dependencies you a
 | [trino](./generated/ingestion/sources/trino.md)                                 | `pip install 'acryl-datahub[trino]'`                       | Trino source                        |
 | [starburst-trino-usage](./generated/ingestion/sources/trino.md)                 | `pip install 'acryl-datahub[starburst-trino-usage]'`       | Starburst Trino usage statistics source |
 | [nifi](./generated/ingestion/sources/nifi.md)                                   | `pip install 'acryl-datahub[nifi]'`                        | Nifi source                         |
-| [powerbi](./generated/ingestion/sources/powerbi.md)                             | `pip install 'acryl-datahub[powerbi]'`                     | Microsoft Power BI source           |
+| [powerbi](./generated/ingestion/sources/powerbi.md#module-powerbi)                             | `pip install 'acryl-datahub[powerbi]'`                     | Microsoft Power BI source           |
+| [powerbi-report-server](./generated/ingestion/sources/powerbi.md#module-powerbi-report-server) | `pip install 'acryl-datahub[powerbi-report-server]'`       | Microsoft Power BI Report Server source           |
 
 ### Sinks
 
