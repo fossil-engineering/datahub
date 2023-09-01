@@ -50,7 +50,7 @@
         "color-hash": "^2.0.1",
         "craco-antd": "^1.19.0",
         "cronstrue": "^1.122.0",
-        "cypress": "7.3.0",
+        "cypress": "13.0.0",
         "d3-scale": "^3.3.0",
         "d3-time-format": "^3.0.0",
         "deepmerge": "^4.2.2",
